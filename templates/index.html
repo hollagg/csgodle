@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS:GOrdle</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <script src="{{url_for('static', filename='game.js')}}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+
+<body>
+    <h1>CS:GOrdle</h1>
+    <h2>A CS:GO Wordle Game by <a href="https://twitter.com/hollabutt" target="_blank" rel="noopener noreferrer">holla</a></h2>
+    <p class="blurb">Guess that CS:GO skin (gun or knife)! You have <span id="attempts"></span> guesses left.</p>
+    <p class="blurb">Skins are NOT StatTrak/Souvenir and are priced using <a href="https://bitskins.com/api" target="_blank" rel="noopener noreferrer">Bitskins API</a>.</p>
+    <p class="blurb">You can use <a href="https://csgostash.com/" target="_blank" rel="noopener noreferrer">CS:GO Stash</a> to easily browse skins by category.</p>
+    <div id="guesses" class="guesses" style="display: none;">
+        <div class="row" id="hinttitles">
+            <div class="column">
+                <p class="hint">Category</p>
+            </div>
+            <div class="column">
+                <p class="hint">Weapon</p>
+            </div>
+            <div class="column">
+                <p class="hint">Paint</p>
+            </div>
+            <div class="column">
+                <p class="hint">Price</p>
+            </div>
+            <div class="column">
+                <p class="hint">Rarity</p>
+            </div>
+            <div class="column">
+                <p class="hint">Condition</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <p id="error_name" style="display: none;">Item not found!</p>
+    <p id="error_exterior" style="display: none;">Condition not found!</p>
+    <form id="guessform" autocomplete="off" onsubmit="return false;">
+        <div class="autocomplete">
+            <input class="guess_input" id="guess_weapon" type="text" name="guess_weapon" placeholder="Weapon Name">
+        </div>
+        <br>
+        <label for="guess_exterior">Condition:</label>
+        <select class="guess_input" id="guess_exterior" name="guess_exterior">
+            <option value="Factory New">Factory New</option>
+            <option value="Minimal Wear">Minimal Wear</option>
+            <option value="Field-Tested">Field-Tested</option>
+            <option value="Well-Worn">Well-Worn</option>
+            <option value="Battle-Scarred">Battle-Scarred</option>
+        </select>
+        <input class="guess_input" value="Submit" type="submit" onclick="handle_guess(false, '{{im[0]}}', '{{im[1]}}', '{{im[2]}}', '{{im[3]}}')">
+        <br>
+        <a class="type-block hintbtn" id="toggleinfo" href="#" onclick="toggle_hints(false)" title="Show skin info in autocomplete entries">📋 Skin Info ON</a>
+    </form>
+    <div id="results" style="display: none;">
+        <span id="won" style="display: none;">You won!</span>
+        <span id="lost" style="display: none;">You lost :c</span>
+        <span>
+            The secret skin was: <b><span id="secretskin">{{secret_present}} </span></b>
+            <img id="secret_thumb" src={{secret_thumb}} style="display: none;">
+        </span>
+        <br>
+        <a class="togglec" onclick="copy_current_day(-1, false)" href="#">📄 Share</a>
+    </div>
+    <a class="togglec" onclick="new_game()" href="#">New Game</a>
+    <br>
+    <a href="{{ url_for('daily') }}">Daily Version</a>
+    <br><br>
+    <span class="credit">This game is based on <a target="_blank" rel="noopener noreferrer" href="https://squirdle.fireblend.com">Squirdle</a> by Fireblend.</span>
+
+    <script>
+        var items = {{items | safe}};
+        document.addEventListener('DOMContentLoaded', (event) => {
+            autocomplete(document.getElementById("guess_weapon"));
+            show_state(false);
+        })
+    </script>
+</body>
+</html>

@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-daily.csv
 bitskins_prices.json
 csgobp_prices.json
 

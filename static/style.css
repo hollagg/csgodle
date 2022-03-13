@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    padding:5px;
+    margin:0;
+}
+
+.togglec {
+    color:white !important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+a {
+    color: #86c232;
+}
+
+body {
+    background-color: #222629;
+    color:whitesmoke;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body.daily {
+    background-color: #202c33;
+}
+
+body.daily a {
+    color:darkgoldenrod;
+}
+
+#toggleinfo {
+    font-size: 14px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: gray;
+    background-color: gray;
+    color:white;
+}
+
+.guess {
+    font-size: 13px;
+    max-width: 500px;
+    min-width: 90px;
+}
+
+body.daily .togglec:hover {
+    background-color:darkgoldenrod;
+}
+
+.togglec:hover {
+    background-color:#5bc232;
+}
+
+.blurb {
+    margin:0;
+    padding:2px;
+}
+
+#secret_thumb {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.guesses {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: none;
+}
+
+.emoji {
+    font-size: 50px;
+    margin: 3px;
+}
+
+.type-block {
+    font-size : 14px;
+    border-style: solid;
+    border-width: 3px;
+    color: #ffffff;
+    padding: 6px;
+    margin: 3px;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: none;
+    border-color: #ffffff;
+    border-style: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex:1;
+    opacity:1;
+}
+
+.row.in {
+    opacity:1;
+}
+
+#attempts {
+    color:crimson;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
+    min-width: 70px;
+    max-width: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.credit {
+    font-size: 13px;
+}
+
+.autocomplete {
+    position: relative;
+    display:inline-block;
+    width: 300px;
+}
+
+.autocomplete-items {
+    position:absolute;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top:100%;
+    left:0;
+    right:0;
+}
+
+input[type="text"] {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid aliceblue;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e6e6e6;
+}
+
+.autocomplete-active {
+    background-color: #a6ffaa !important;
+}
+
+.tooltip {
+    position:relative;
+    display:inline-block;
+}
+
+.dropinfo {
+    color:black;
+    font-size:13px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 50%;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.item_thumb {
+    object-fit: scale-down;
+    height:70px;
+}
+
+.hint {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#guess_weapon {
+    padding:10px;
+    width:300px;
+    margin:0;
+}
+
+.guess_input {
+    border-radius: 0px;
+    border: 1px solid transparent;
+    /* background-color: black; */
+    font-size: 19px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+      font-size: 16px;
+      background-color:black;
+    }
+    .column {
+      min-width: 55px;
+      max-width: 55px;
+    }
+    .autocomplete {
+      width: 200px;
+    }
+    .type-block {
+      font-size : 13px;
+      padding: 5px;
+      margin: 2px;
+    }
+  }
