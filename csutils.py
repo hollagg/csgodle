@@ -42,22 +42,22 @@ def get_skin(daily=False):
         secret = skin_key + split + skin_exterior
         return secret
 
-# Generates random valid conditions of inputted skins
-def random_condition_daily():
-    items_js = open('processed_items.json', encoding='utf-8')
-    items = json.load(items_js)
-    with open('dl_daily.csv', 'r') as read_obj:
-        with open('daily.csv', 'w', newline='', encoding='utf-8') as f:
-            wr = writer(f)
-            csv_reader = reader(read_obj)
-            for row in csv_reader:
-                if row[0] == 'date':
-                    wr.writerow(row)
-                elif row[1] != '':
-                    skin_name = row[1]
-                    random_condition_index = np.random.randint(0, len(items[skin_name]['exterior']))
-                    random_condition = list(items[skin_name]['exterior'])[random_condition_index]
-                    wr.writerow([row[0], skin_name, random_condition])
-    items_js.close()
+# # Generates random valid conditions of inputted skins
+# def random_condition_daily():
+#     items_js = open('processed_items.json', encoding='utf-8')
+#     items = json.load(items_js)
+#     with open('dl_daily.csv', 'r') as read_obj:
+#         with open('daily.csv', 'w', newline='', encoding='utf-8') as f:
+#             wr = writer(f)
+#             csv_reader = reader(read_obj)
+#             for row in csv_reader:
+#                 if row[0] == 'date':
+#                     wr.writerow(row)
+#                 elif row[1] != '':
+#                     skin_name = row[1]
+#                     random_condition_index = np.random.randint(0, len(items[skin_name]['exterior']))
+#                     random_condition = list(items[skin_name]['exterior'])[random_condition_index]
+#                     wr.writerow([row[0], skin_name, random_condition])
+#     items_js.close()
 
-random_condition_daily()
+# random_condition_daily()
