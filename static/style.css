@@ -81,6 +81,7 @@ body.daily .togglec:hover {
 }
 
 .emoji {
+    object-fit: scale-down;
     font-size: 50px;
     margin: 3px;
 }
@@ -204,7 +205,7 @@ input[type="text"] {
 
 .item_thumb {
     object-fit: scale-down;
-    height:70px;
+    width:70px;
 }
 
 .hint {
@@ -244,5 +245,9 @@ input[type="text"] {
     }
     .guess_input {
         box-sizing: border-box;
+    }
+    .item_thumb {
+        object-fit: scale-down;
+        width:55px;
     }
   }
