@@ -229,18 +229,20 @@ input[type="text"] {
 @media screen and (max-width: 450px) {
     body {
       font-size: 16px;
-      background-color:black;
     }
     .column {
       min-width: 55px;
       max-width: 55px;
     }
-    .autocomplete {
-      width: 200px;
-    }
     .type-block {
       font-size : 13px;
       padding: 5px;
       margin: 2px;
+    }
+    .hint {
+        font-size: 11px;
+    }
+    .guess_input {
+        box-sizing: border-box;
     }
   }
