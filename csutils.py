@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+from wsgiref import validate
 import numpy as np
 import json
 from csv import reader, writer
@@ -52,8 +53,12 @@ def get_skin(daily=False):
 #             if row[0] != 'date':
 #                 # print(row)
 #                 # print(row[1], row[2])
-#                 if not items[row[1]]['exterior'][row[2]]:
-#                     print("issue with", row[1], row[2])
+#                 if row[1] not in items:
+#                     print("issue with finding skin:", row[1], row[2])
+#                 elif row[2] not in items[row[1]]['exterior']:
+#                     print('issue with exterior', row[1],row[2])
+
+# validate_daily()
 
 # # Generates random valid conditions of inputted skins
 # def random_condition_daily():

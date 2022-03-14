@@ -93,6 +93,9 @@ for item in items_list:
             # Pistol, rifle, heavy, knife, etc
             # Knives have knife_type, guns have gun_type
             weapon_type = item_info['weapon_type']
+            # Removing knives for now
+            if weapon_type.lower() == 'knife':
+                continue
             exterior = 'Not Painted'
             # Regex to get exterior quality
             if len(re.findall('\((.*?)\)', item_name)) > 0:
