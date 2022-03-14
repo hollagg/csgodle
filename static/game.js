@@ -204,7 +204,7 @@ let createElement = (initObj) => {
 function show_state(daily) {
     let enabled = get_cookie("hintsenabled", false);
     document.getElementById("toggleinfo").innerHTML = "📋 Skin Info " + (enabled=="0"?"OFF":"ON");
-    let guesses = get_cookie("guesses", daily);
+    let guesses = get_cookie("guesses_2", daily);
     let attempts = get_cookie("t_attempts", daily);
     guesses = guesses == ""? []:JSON.parse(guesses);
     let guesses_cont = document.getElementById("guesses");
@@ -323,11 +323,11 @@ function handle_guess(daily, im1, im2, im3, im4) {
         "mosaic": category + weapon_name + paint + price + rarity + exterior
     }
 
-    let guesses = get_cookie("guesses", daily);
+    let guesses = get_cookie("guesses_2", daily);
     guesses = guesses == ""? []:JSON.parse(guesses)
     guesses.push(guess_info)
 
-    set_cookie("guesses", JSON.stringify(guesses), 100, daily)
+    set_cookie("guesses_2", JSON.stringify(guesses), 100, daily)
     show_state(daily)
 }
 
@@ -337,7 +337,7 @@ function replace_at(str,index,ch) {
 
 function copy_current_day(day, names) {
     let attempts = parseInt(get_cookie("t_attempts", day > -1));
-    var guesses = JSON.parse(get_cookie("guesses", day > -1));
+    var guesses = JSON.parse(get_cookie("guesses_2", day > -1));
     var g_len = guesses.length;
     if (document.getElementById('lost').style.display == "block") {
         g_len = "X"
@@ -405,7 +405,7 @@ function get_skin() {
 function new_game(daily) {
     let secret_skin = "";
     let secret_present_skin = "";
-    set_cookie("guesses","", 30,daily);
+    set_cookie("guesses_2","", 30,daily);
     set_cookie("t_attempts", 8, 30,daily);
     skin = get_skin();
     secret_skin = skin["name"] + "///" + skin["exterior"];
