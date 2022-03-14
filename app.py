@@ -32,7 +32,7 @@ def handle_new_game(is_daily):
     # 24h, since daily
     if is_daily:
         expire_date = datetime.combine(datetime.date(datetime.now()-timedelta(hours=10)),
-            datetime.min.time())+timedelta(days=1, hours=10)
+            datetime.min.time())+timedelta(days=1,hours=10)
     else:
         expire_date = datetime.date(datetime.now())+timedelta(days=7)
 

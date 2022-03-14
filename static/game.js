@@ -162,7 +162,15 @@ function format_price(price) {
 function set_cookie(cookie_name, cookie_value, ex, daily) {
     cookie_name = (daily?"d_":"") + cookie_name;
     const d = new Date();
-    d.setTime(d.getTime() + (ex*24*60*60*1000));
+    if (daily) {
+        d.setTime(d.getTime() + (24*60*60*1000));
+        d.setUTCHours(10);
+        d.setMinutes(0);
+        d.setSeconds(0);
+    }
+    else {
+        d.setTime(d.getTime() + (ex*24*60*60*1000));
+    }
     let expires = "expires=" + d.toUTCString();
     document.cookie = cookie_name + "=" + cookie_value + ";" + expires + ";path=/"+";samesite=strict";
 }
@@ -394,14 +402,16 @@ function get_skin() {
     return skin;
 }
 
-function new_game() {
-    set_cookie("guesses","", 30);
-    set_cookie("t_attempts", 8, 30);
+function new_game(daily) {
+    let secret_skin = "";
+    let secret_present_skin = "";
+    set_cookie("guesses","", 30,daily);
+    set_cookie("t_attempts", 8, 30,daily);
     skin = get_skin();
     secret_skin = skin["name"] + "///" + skin["exterior"];
     secret_present_skin = skin["name"] + " (" + skin["exterior"] + ")"
-    set_cookie("secret_item",  secret_skin, 30);
-    set_cookie("secret_present",  secret_present_skin, 30);
+    set_cookie("secret_item",  secret_skin, 30,daily);
+    set_cookie("secret_present",  secret_present_skin, 30,daily);
     autocomplete(document.getElementById("guess_weapon"));
 
     for (x in [0,1,2,3,4,5,6,7]) {
@@ -415,5 +425,6 @@ function new_game() {
     document.getElementById("won").style.display = "none";
     document.getElementById("secretskin").innerHTML = secret_present_skin;
     document.getElementById("secret_thumb").src = items[skin["name"]]["exterior"][skin["exterior"]]["url"];
-    show_state(false);
+    show_state(daily);
+
 }
