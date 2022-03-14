@@ -56,7 +56,7 @@ Weapons that are not stattrak or souvenir (prices fluctuate too much and low sup
 num_dict = 0
 num_total = 0
 # Base url for skin icons
-url = 'https://cdn.steamcommunity.com/economy/image/'
+url = 'http://cdn.steamcommunity.com/economy/image/'
 # For rounding to nearest cent
 def truncate(n, decimals=0):
                     multiplier = 10 ** decimals
