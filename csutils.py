@@ -42,6 +42,19 @@ def get_skin(daily=False):
         secret = skin_key + split + skin_exterior
         return secret
 
+# # Validates daily.csv
+# def validate_daily():
+#     items_js = open('processed_items.json', encoding='utf-8')
+#     items = json.load(items_js)
+#     with open('daily.csv', 'r') as read_obj:
+#         csv_reader = reader(read_obj)
+#         for row in csv_reader:
+#             if row[0] != 'date':
+#                 # print(row)
+#                 # print(row[1], row[2])
+#                 if not items[row[1]]['exterior'][row[2]]:
+#                     print("issue with", row[1], row[2])
+
 # # Generates random valid conditions of inputted skins
 # def random_condition_daily():
 #     items_js = open('processed_items.json', encoding='utf-8')
@@ -59,5 +72,3 @@ def get_skin(daily=False):
 #                     random_condition = list(items[skin_name]['exterior'])[random_condition_index]
 #                     wr.writerow([row[0], skin_name, random_condition])
 #     items_js.close()
-
-# random_condition_daily()
