@@ -10,6 +10,7 @@ function autocomplete(inp) {
         a.setAttribute("id", this.id + "autocomplete-list");
         a.setAttribute("class", "autocomplete-items");
         this.parentNode.appendChild(a);
+        let condition = document.getElementById("guess_exterior").value;
         // Search function
         for(const [key, value] of Object.entries(items)) {
             let key_up = key.toUpperCase();
@@ -81,10 +82,16 @@ function autocomplete(inp) {
                 b.innerHTML = `<p style='color:#${color_hex};'>${highlighted_word}</p>`
                 if(hints_enabled == "1" | hints_enabled == "") {
                     let weapon_type = value['weapon_category'];
+                    // If condition price is not found, say N/A
+                    let condition_price = "N/A"
+                    if (condition in value['exterior']) {
+                        condition_price = "$" + format_price(value['exterior'][condition]['price'])
+                    }
                     let avg_price = format_price(value['avg_price']);
-                    let highest_price = format_price(value['highest_price']);
+                    // let highest_price = format_price(value['highest_price']);
                     b.innerHTML += "<span class=\"dropinfo\"> Category: " + weapon_type + 
-                        ", Average Price: $"+avg_price + ", Highest Price: $" +highest_price + "</span>";
+                        ", Price (" + condition + "): "+condition_price + ", Average Price (All Conditions): $" + 
+                        avg_price + "</span>";
                 }
                 b.innerHTML += "<input type='hidden' value='" + value + "'>";
                 b.addEventListener("click", function(e) {

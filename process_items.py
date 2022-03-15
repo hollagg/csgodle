@@ -61,6 +61,46 @@ url = 'https://community.akamai.steamstatic.com/economy/image/'
 def truncate(n, decimals=0):
                     multiplier = 10 ** decimals
                     return int(n * multiplier) / multiplier
+
+# for item in items_list:
+#     item_info = items_list[item]
+#     item_type = item_info['type']
+#     if item_type:
+#         # We do not want souvenirs or stattraks 
+#         if item_type.lower() == 'weapon' and 'souvenir' not in item_info and 'stattrak' not in item_info:
+#             # No knives either
+#             if item_info['weapon_type'] != 'Knife':
+#                 # Unescape because of some html characters in backpack json
+#                 item_name = html.unescape(item_info['name'])
+#                 if '|' not in item_name:
+#                     continue
+#                 item_price = -1
+#                 item_name = re.sub('%27', "'", item_name)
+#                 price_info = ''
+#                 try:
+#                     price_info = item_info['price']
+#                 except:
+#                     print(item_name.encode('utf-8'), 'does not have a csgobackpack price label')
+#                 n = 0
+#                 # We want to try all possible price time intervals, if they fail go to bitskins pricing
+#                 try:
+#                     price_info['7_days']['average']
+#                 except:
+#                     n+= 1
+#                 try:
+#                     price_info['30_days']['average']
+#                 except:
+#                     n+= 1
+#                 try:
+#                     price_info['all_time']['average']
+#                 except:
+#                     n+= 1
+#                 if n == 3:
+#                     print(item_name, "failed")
+#                     p1 = get_bitskins_price(item_name, bitskins_prices)
+#                     if p1 == -1:
+#                         print(item_name, "DOUBLE FAILED!!!!!")
+                
 for item in items_list:
     num_total += 1
     item_info = items_list[item]
@@ -97,12 +137,13 @@ for item in items_list:
             if weapon_type.lower() == 'knife':
                 continue
             exterior = 'Not Painted'
-            # Regex to get exterior quality
-            if len(re.findall('\((.*?)\)', item_name)) > 0:
-                exterior = re.findall('\((.*?)\)', item_name)[0]
+            len_re = len(re.findall('\((.*?)\)', item_name))
+            # Regex to get exterior quality, index at len - 1 to cover dragon king which has 2 sets of ()
+            if len_re > 0:
+                exterior = re.findall('\((.*?)\)', item_name)[len_re - 1]
             # after getting exterior, we can sanitize weapon name by removing exterior and star if in knife
             item_name_sanitized = item_name.replace('★ ', '')
-            item_name_sanitized = re.sub(' \((.*?)\)', '', item_name_sanitized)
+            item_name_sanitized = item_name_sanitized.replace(f' ({exterior})', '')
 
             # Create dict
             if item_name_sanitized not in weapons:
