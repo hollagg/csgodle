@@ -421,6 +421,7 @@ function new_game(daily) {
 
     document.getElementById("guessform").style.display = "block";
     document.getElementById("results").style.display = "none";
+    document.getElementById("skinhint_text").style.display = "none";
     document.getElementById("lost").style.display = "none";
     document.getElementById("won").style.display = "none";
     document.getElementById("secretskin").innerHTML = secret_present_skin;
