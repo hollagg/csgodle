@@ -38,7 +38,7 @@ body.daily a {
     color:darkgoldenrod;
 }
 
-#toggleinfo {
+#toggleinfo, #skinhint{
     font-size: 14px;
     border-radius: 15px;
     border-style: solid;

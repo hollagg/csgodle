@@ -60,6 +60,9 @@
         <input class="guess_input" value="Submit" type="submit" onclick="handle_guess(true, '{{im[0]}}', '{{im[1]}}', '{{im[2]}}', '{{im[3]}}')">
         <br>
         <a class="type-block hintbtn" id="toggleinfo" href="#" onclick="toggle_hints(true)" title="Show skin info in autocomplete entries">📋 Skin Info ON</a>
+        <br>
+        <a class="type-block hintbtn" id="skinhint" href="#" onclick="show_hint(true)" title="Displays a hint for the secret skin">👀 Show Hint</a>
+        <p id="skinhint_text" style="display: none;"></p>
     </form>
     <div id="results" style="display: none;">
         <span id="won" style="display: none;">You won!</span>

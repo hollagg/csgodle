@@ -428,3 +428,26 @@ function new_game(daily) {
     show_state(daily);
 
 }
+
+// Shows a hint for the secret skin, containing info on what side wep it is as well as category
+function show_hint(daily) {
+    // If not ct or t, they're shared
+    let ct = ["five-seven", "p2000", "usp-s", "mag-7", "mp9", "aug", "famas", "m4a1-s", "m4a4", "scar-20"]
+    let t = ["glock-18", "tec-9", "sawed-off", "mac-10", "ak-47", "galil ar", "sg 553", "g3sg1"]
+    let secret_split = get_cookie("secret_item", daily).replace(/"/g, '').split("///");
+    let secret_class_lower = items[secret_split[0]]['weapon_class'].toLowerCase();
+    let secret_category = items[secret_split[0]]['weapon_category'];
+    let hint = `Category: ${secret_category}, Side: `
+    if (ct.includes(secret_class_lower)) {
+        hint += 'CT'
+    }
+    else if (t.includes(secret_class_lower)) {
+        hint += 'T'
+    }
+    else {
+        hint += 'Both CT & T'
+    }
+    let hint_element = document.getElementById('skinhint_text');
+    hint_element.style.display = "block";
+    hint_element.innerHTML = hint;
+}
