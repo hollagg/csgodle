@@ -5,6 +5,7 @@ import json
 from csv import reader, writer
 
 split = '///'
+price_json = 'updated_prices.json'
 
 # get day and then daily skin
 def get_today():
@@ -12,7 +13,7 @@ def get_today():
     return today
 
 def get_items_json():
-    items_js = open('processed_items.json', encoding='utf-8')
+    items_js = open(price_json, encoding='utf-8')
     items = json.load(items_js)
     items_js.close()
     return items
@@ -45,7 +46,7 @@ def get_skin(daily=False):
 
 # # Validates daily.csv
 # def validate_daily():
-#     items_js = open('processed_items.json', encoding='utf-8')
+#     items_js = open(price_json, encoding='utf-8')
 #     items = json.load(items_js)
 #     with open('daily.csv', 'r') as read_obj:
 #         csv_reader = reader(read_obj)
@@ -62,7 +63,7 @@ def get_skin(daily=False):
 
 # # Generates random valid conditions of inputted skins
 # def random_condition_daily():
-#     items_js = open('processed_items.json', encoding='utf-8')
+#     items_js = open(price_json, encoding='utf-8')
 #     items = json.load(items_js)
 #     with open('dl_daily.csv', 'r') as read_obj:
 #         with open('daily.csv', 'w', newline='', encoding='utf-8') as f:

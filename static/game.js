@@ -365,7 +365,7 @@ function copy_current_day(day, names) {
     let mosaic_daily = "";
     if (day > -1) {mosaic_daily = "/daily"}
 
-    text = "CS:GOrdle " + daily_info + g_len + "/" + attempts + text + "\n\ncsgordle.holla.one" + mosaic_daily;
+    text = "#CSGOrdle " + daily_info + g_len + "/" + attempts + text + "\n\ncsgordle.holla.one" + mosaic_daily;
     var success = "Copied results to clipboard!"
     if (window.clipboardData && window.clipBoardData.setData) {
         alert(success);

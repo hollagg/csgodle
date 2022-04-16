@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 bitskins_prices.json
 csgobp_prices.json
+results.json
 
 # C extensions
 *.so
