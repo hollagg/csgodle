@@ -57,3 +57,8 @@ def daily():
     if not 'd_secret_item' in request.cookies:
         return handle_new_game(is_daily=True)
     return show_game_state(is_daily=True)
+
+@app.route('/dev')
+def dev():
+    # Redirect to a writeup I did on the project
+    return redirect("https://painted-coach-e77.notion.site/Creating-CS-GOrdle-9f397ab9e6bd4df69793811e55cc9b83", code=302)
