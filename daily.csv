@@ -1,568 +1,357 @@
 date,skin,condition
-2022-03-13,AWP | Asiimov,Battle-Scarred
-2022-03-14,M4A4 | Poseidon,Minimal Wear
-2022-03-15,P2000 | Fire Elemental,Field-Tested
-2022-03-16,Nova | Koi,Factory New
-2022-03-17,Desert Eagle | Blaze,Factory New
-2022-03-18,P250 | Sand Dune,Battle-Scarred
-2022-03-19,Five-SeveN | Monkey Business,Well-Worn
-2022-03-20,AWP | Oni Taiji,Battle-Scarred
-2022-03-21,USP-S | Neo-Noir,Well-Worn
-2022-03-22,MP9 | Goo,Factory New
-2022-03-23,M4A4 | Howl,Minimal Wear
-2022-03-24,Desert Eagle | Printstream,Factory New
-2022-03-25,AK-47 | Neon Rider,Field-Tested
-2022-03-26,Galil AR | Eco,Field-Tested
-2022-03-27,Sawed-Off | The Kraken,Minimal Wear
-2022-03-28,Glock-18 | Water Elemental,Field-Tested
-2022-03-29,CZ75-Auto | Xiangliu,Well-Worn
-2022-03-30,MAC-10 | Candy Apple,Factory New
-2022-03-31,SSG 08 | Necropos,Minimal Wear
-2022-04-01,Glock-18 | Snack Attack,Factory New
-2022-04-02,MP7 | Fade,Factory New
-2022-04-03,Desert Eagle | Conspiracy,Field-Tested
-2022-04-04,Tec-9 | Nuclear Threat,Field-Tested
-2022-04-05,Desert Eagle | Code Red,Factory New
-2022-04-06,AK-47 | Fuel Injector,Battle-Scarred
-2022-04-07,MAG-7 | SWAG-7,Minimal Wear
-2022-04-08,Negev | Power Loader,Field-Tested
-2022-04-09,SCAR-20 | Emerald,Factory New
-2022-04-10,Sawed-Off | Origami,Minimal Wear
-2022-04-11,SSG 08 | Abyss,Battle-Scarred
-2022-04-12,AWP | Dragon Lore,Factory New
-2022-04-13,Five-SeveN | Hyper Beast,Battle-Scarred
-2022-04-14,Glock-18 | High Beam,Factory New
-2022-04-15,XM1014 | Incinegator,Minimal Wear
-2022-04-16,P90 | Asiimov,Factory New
-2022-04-17,Glock-18 | Bullet Queen,Well-Worn
-2022-04-18,CZ75-Auto | The Fuschia Is Now,Minimal Wear
-2022-04-19,P250 | See Ya Later,Field-Tested
-2022-04-20,SG 553 | Phantom,Minimal Wear
-2022-04-21,AK-47 | Cartel,Field-Tested
-2022-04-22,Tec-9 | Bamboozle,Battle-Scarred
-2022-04-23,AUG | Arctic Wolf,Battle-Scarred
-2022-04-24,CZ75-Auto | Tacticat,Factory New
-2022-04-25,Dual Berettas | Dualing Dragons,Well-Worn
-2022-04-26,M4A1-S | Player Two,Field-Tested
-2022-04-27,AK-47 | Vulcan,Minimal Wear
-2022-04-28,USP-S | Cyrex,Minimal Wear
-2022-04-29,M4A1-S | Knight,Factory New
-2022-04-30,SCAR-20 | Bloodsport,Well-Worn
-2022-05-01,SSG 08 | Blue Spruce,Minimal Wear
-2022-05-02,AWP | Safari Mesh,Battle-Scarred
-2022-05-03,M4A4 | Griffin,Minimal Wear
-2022-05-04,FAMAS | Pulse,Field-Tested
-2022-05-05,UMP-45 | Blaze,Factory New
-2022-05-06,PP-Bizon | Osiris,Well-Worn
-2022-05-07,P250 | Whiteout,Factory New
-2022-05-08,AWP | Redline,Field-Tested
-2022-05-09,MP9 | Dart,Battle-Scarred
-2022-05-10,Nova | Antique,Minimal Wear
-2022-05-11,Glock-18 | Grinder,Field-Tested
-2022-05-12,AK-47 | Frontside Misty,Factory New
-2022-05-13,Desert Eagle | Night,Factory New
-2022-05-14,AWP | Desert Hydra,Minimal Wear
-2022-05-15,USP-S | Guardian,Field-Tested
-2022-05-16,MAC-10 | Disco Tech,Battle-Scarred
-2022-05-17,M4A4 | Cyber Security,Field-Tested
-2022-05-18,Glock-18 | Bunsen Burner,Factory New
-2022-05-19,AK-47 | Hydroponic,Minimal Wear
-2022-05-20,Negev | Loudmouth,Field-Tested
-2022-05-21,M4A1-S | Hyper Beast,Well-Worn
-2022-05-22,AK-47 | Black Laminate,Factory New
-2022-05-23,Glock-18 | Gamma Doppler,Minimal Wear
-2022-05-24,M4A1-S | Icarus Fell,Factory New
-2022-05-25,PP-Bizon | High Roller,Battle-Scarred
-2022-05-26,AWP | BOOM,Field-Tested
-2022-05-27,XM1014 | XOXO,Minimal Wear
-2022-05-28,MP9 | Mount Fuji,Field-Tested
-2022-05-29,Tec-9 | Decimator,Well-Worn
-2022-05-30,UMP-45 | Fade,Factory New
-2022-05-31,FAMAS | Neural Net,Field-Tested
-2022-06-01,M249 | Nebula Crusader,Minimal Wear
-2022-06-02,AUG | Akihabara Accept,Field-Tested
-2022-06-03,AWP | Atheris,Factory New
-2022-06-04,Five-SeveN | Fowl Play,Minimal Wear
-2022-06-05,Glock-18 | Neo-Noir,Field-Tested
-2022-06-06,AK-47 | Fire Serpent,Well-Worn
-2022-06-07,Desert Eagle | Crimson Web,Factory New
-2022-06-08,Dual Berettas | Melondrama,Field-Tested
-2022-06-09,MP7 | Abyssal Apparition,Well-Worn
-2022-06-10,M4A4 | The Coalition,Factory New
-2022-06-11,P250 | Supernova,Minimal Wear
-2022-06-12,Nova | Bloomstick,Field-Tested
-2022-06-13,Sawed-Off | Serenity,Minimal Wear
-2022-06-14,M4A1-S | Cyrex,Factory New
-2022-06-15,R8 Revolver | Llama Cannon,Battle-Scarred
-2022-06-16,SCAR-20 | Powercore,Well-Worn
-2022-06-17,MAG-7 | Bulldozer,Factory New
-2022-06-18,MAC-10 | Neon Rider,Field-Tested
-2022-06-19,AWP | Medusa,Minimal Wear
-2022-06-20,MP9 | Pandora's Box,Field-Tested
-2022-06-21,Glock-18 | Vogue,Battle-Scarred
-2022-06-22,P250 | Franklin,Field-Tested
-2022-06-23,AUG | Death by Puppy,Well-Worn
-2022-06-24,AK-47 | Bloodsport,Factory New
-2022-06-25,CZ75-Auto | Tigris,Minimal Wear
-2022-06-26,SSG 08 | Blood in the Water,Field-Tested
-2022-06-27,USP-S | Orion,Battle-Scarred
-2022-06-28,M4A4 | Evil Daimyo,Factory New
-2022-06-29,P2000 | Amber Fade,Field-Tested
-2022-06-30,M4A1-S | Nightmare,Minimal Wear
-2022-07-01,AK-47 | Red Laminate,Field-Tested
-2022-07-02,M4A4 | The Emperor,Minimal Wear
-2022-07-03,Five-SeveN | Angry Mob,Well-Worn
-2022-07-04,USP-S | Purple DDPAT,Factory New
-2022-07-05,P90 | Nostalgia,Battle-Scarred
-2022-07-06,SSG 08 | Turbo Peek,Minimal Wear
-2022-07-07,AUG | Carved Jade,Minimal Wear
-2022-07-08,P250 | Facets,Field-Tested
-2022-07-09,P2000 | Pulse,Minimal Wear
-2022-07-10,SG 553 | Hazard Pay,Well-Worn
-2022-07-11,FAMAS | Eye of Athena,Field-Tested
-2022-07-12,M249 | Impact Drill,Factory New
-2022-07-13,AWP | Lightning Strike,Minimal Wear
-2022-07-14,P90 | Trigon,Field-Tested
-2022-07-15,P2000 | Acid Etched,Well-Worn
-2022-07-16,SCAR-20 | Enforcer,Field-Tested
-2022-07-17,Desert Eagle | Trigger Discipline,Minimal Wear
-2022-07-18,MP5-SD | Nitro,Factory New
-2022-07-19,AK-47 | Slate,Field-Tested
-2022-07-20,SSG 08 | Mainframe 001,Minimal Wear
-2022-07-21,MP7 | Cirrus,Well-Worn
-2022-07-22,Dual Berettas | Marina,Minimal Wear
-2022-07-23,USP-S | Forest Leaves,Field-Tested
-2022-07-24,M4A4 | Spider Lily,Well-Worn
-2022-07-25,CZ75-Auto | Syndicate,Factory New
-2022-07-26,Nova | Baroque Orange,Well-Worn
-2022-07-27,M4A1-S | Leaded Glass,Field-Tested
-2022-07-28,FAMAS | Meltdown,Minimal Wear
-2022-07-29,Glock-18 | Weasel,Well-Worn
-2022-07-30,AUG | Hot Rod,Factory New
-2022-07-31,PP-Bizon | Carbon Fiber,Minimal Wear
-2022-08-01,AK-47 | X-Ray,Field-Tested
-2022-08-02,Desert Eagle | Kumicho Dragon,Battle-Scarred
-2022-08-03,P250 | Valence,Well-Worn
-2022-08-04,AUG | Death by Puppy,Field-Tested
-2022-08-05,M4A4 | Royal Paladin,Minimal Wear
-2022-08-06,Glock-18 | Fade,Factory New
-2022-08-07,PP-Bizon | Space Cat,Well-Worn
-2022-08-08,MAC-10 | Allure,Battle-Scarred
-2022-08-09,SSG 08 | Ghost Crusader,Factory New
-2022-08-10,USP-S | Dark Water,Field-Tested
-2022-08-11,Dual Berettas | Melondrama,Minimal Wear
-2022-08-12,Tec-9 | Snek-9,Field-Tested
-2022-08-13,MP9 | Airlock,Well-Worn
-2022-08-14,UMP-45 | Primal Saber,Factory New
-2022-08-15,P2000 | Gnarled,Battle-Scarred
-2022-08-16,Galil AR | CAUTION!,Factory New
-2022-08-17,AWP | Fever Dream,Minimal Wear
-2022-08-18,AK-47 | Hydroponic,Field-Tested
-2022-08-19,P250 | Digital Architect,Minimal Wear
-2022-08-20,R8 Revolver | Grip,Factory New
-2022-08-21,M4A4 | Tooth Fairy,Minimal Wear
-2022-08-22,SCAR-20 | Cardiac,Field-Tested
-2022-08-23,PP-Bizon | Photic Zone,Well-Worn
-2022-08-24,MAC-10 | Pipe Down,Battle-Scarred
-2022-08-25,MP7 | Ocean Foam,Minimal Wear
-2022-08-26,SG 553 | Darkwing,Factory New
-2022-08-27,Tec-9 | Brother,Field-Tested
-2022-08-28,MP9 | Capillary,Factory New
-2022-08-29,AWP | Elite Build,Minimal Wear
-2022-08-30,Galil AR | Rocket Pop,Well-Worn
-2022-08-31,Dual Berettas | Panther,Minimal Wear
-2022-09-01,AK-47 | Rat Rod,Factory New
-2022-09-02,Desert Eagle | Sputnik,Field-Tested
-2022-09-03,P250 | Ripple,Factory New
-2022-09-04,AUG | Ricochet,Minimal Wear
-2022-09-05,M4A4 | Global Offensive,Factory New
-2022-09-06,MAC-10 | Ultraviolet,Field-Tested
-2022-09-07,SSG 08 | Detour,Factory New
-2022-09-08,USP-S | Target Acquired,Minimal Wear
-2022-09-09,Dual Berettas | Cobalt Quartz,Well-Worn
-2022-09-10,Tec-9 | Ice Cap,Factory New
-2022-09-11,MP9 | Food Chain,Field-Tested
-2022-09-12,UMP-45 | Riot,Minimal Wear
-2022-09-13,P2000 | Obsidian,Field-Tested
-2022-09-14,AWP | Electric Hive,Factory New
-2022-09-15,Tec-9 | Sandstorm,Field-Tested
-2022-09-16,SSG 08 | Slashed,Well-Worn
-2022-09-17,CZ75-Auto | Pole Position,Factory New
-2022-09-18,MAG-7 | Heaven Guard,Minimal Wear
-2022-09-19,AK-47 | Jet Set,Factory New
-2022-09-20,PP-Bizon | Antique,Well-Worn
-2022-09-21,P250 | Bengal Tiger,Minimal Wear
-2022-09-22,FAMAS | Afterimage,Field-Tested
-2022-09-23,Glock-18 | Wasteland Rebel,Minimal Wear
-2022-09-24,M4A1-S | Chantico's Fire,Well-Worn
-2022-09-25,AWP | Worm God,Minimal Wear
-2022-09-26,Galil AR | Phoenix Blacklight,Field-Tested
-2022-09-27,P2000 | Imperial Dragon,Field-Tested
-2022-09-28,Five-SeveN | Boost Protocol,Factory New
-2022-09-29,Tec-9 | Re-Entry,Well-Worn
-2022-09-30,M4A4 | Zirka,Factory New
-2022-10-01,AK-47 | Frontside Misty,Factory New
-2022-10-02,AUG | Fleet Flock,Minimal Wear
-2022-10-03,SSG 08 | Jungle Dashed,Field-Tested
-2022-10-04,Desert Eagle | Cobalt Disruption,Factory New
-2022-10-05,SG 553 | Colony IV,Factory New
-2022-10-06,AWP | Corticera,Factory New
-2022-10-07,USP-S | Pathfinder,Factory New
-2022-10-08,FAMAS | Commemoration,Factory New
-2022-10-09,SG 553 | Ultraviolet,Field-Tested
-2022-10-10,Nova | Walnut,Factory New
-2022-10-11,CZ75-Auto | The Fuschia Is Now,Factory New
-2022-10-12,P90 | Fallout Warning,Factory New
-2022-10-13,P90 | Baroque Red,Factory New
-2022-10-14,MAC-10 | Fade,Minimal Wear
-2022-10-15,Galil AR | Phoenix Blacklight,Minimal Wear
-2022-10-16,Dual Berettas | Emerald,Factory New
-2022-10-17,PP-Bizon | Irradiated Alert,Factory New
-2022-10-18,FAMAS | Afterimage,Well-Worn
-2022-10-19,AWP | Wildfire,Minimal Wear
-2022-10-20,MAC-10 | Ultraviolet,Factory New
-2022-10-21,M4A4 | Royal Paladin,Factory New
-2022-10-22,P250 | Asiimov,Minimal Wear
-2022-10-23,Galil AR | Aqua Terrace,Well-Worn
-2022-10-24,USP-S | Orange Anolis,Minimal Wear
-2022-10-25,PP-Bizon | Modern Hunter,Factory New
-2022-10-26,AK-47 | Orbit Mk01,Factory New
-2022-10-27,AUG | Akihabara Accept,Well-Worn
-2022-10-28,USP-S | Dark Water,Field-Tested
-2022-10-29,AK-47 | Leet Museo,Battle-Scarred
-2022-10-30,P250 | Modern Hunter,Minimal Wear
-2022-10-31,P250 | Splash,Minimal Wear
-2022-11-01,SG 553 | Traveler,Battle-Scarred
-2022-11-02,USP-S | Stainless,Factory New
-2022-11-03,SG 553 | Gator Mesh,Battle-Scarred
-2022-11-04,XM1014 | VariCamo Blue,Battle-Scarred
-2022-11-05,M4A4 | Red DDPAT,Well-Worn
-2022-11-06,P250 | Crimson Kimono,Well-Worn
-2022-11-07,G3SG1 | Violet Murano,Minimal Wear
-2022-11-08,P2000 | Pathfinder,Minimal Wear
-2022-11-09,USP-S | Neo-Noir,Factory New
-2022-11-10,AWP | Snake Camo,Battle-Scarred
-2022-11-11,P2000 | Fire Elemental,Factory New
-2022-11-12,AWP | Sun in Leo,Field-Tested
-2022-11-13,MP7 | Teal Blossom,Battle-Scarred
-2022-11-14,CZ75-Auto | Poison Dart,Well-Worn
-2022-11-15,MP9 | Bulldozer,Battle-Scarred
-2022-11-16,Tec-9 | Tornado,Well-Worn
-2022-11-17,Galil AR | Sugar Rush,Well-Worn
-2022-11-18,P2000 | Amber Fade,Factory New
-2022-11-19,AK-47 | Panthera onca,Battle-Scarred
-2022-11-20,AUG | Bengal Tiger,Factory New
-2022-11-21,Nova | Modern Hunter,Battle-Scarred
-2022-11-22,Dual Berettas | Pyre,Battle-Scarred
-2022-11-23,P90 | Emerald Dragon,Factory New
-2022-11-24,Sawed-Off | First Class,Factory New
-2022-11-25,Desert Eagle | Pilot,Battle-Scarred
-2022-11-26,Dual Berettas | Marina,Factory New
-2022-11-27,FAMAS | Spitfire,Well-Worn
-2022-11-28,M4A4 | Buzz Kill,Factory New
-2022-11-29,M4A1-S | Master Piece,Battle-Scarred
-2022-11-30,AK-47 | Jaguar,Field-Tested
-2022-12-01,Tec-9 | Terrace,Battle-Scarred
-2022-12-02,MAC-10 | Gold Brick,Minimal Wear
-2022-12-03,Desert Eagle | Midnight Storm,Field-Tested
-2022-12-04,M4A1-S | Player Two,Field-Tested
-2022-12-05,M4A1-S | Nightmare,Factory New
-2022-12-06,P250 | Bengal Tiger,Factory New
-2022-12-07,Tec-9 | Decimator,Minimal Wear
-2022-12-08,M4A1-S | Golden Coil,Minimal Wear
-2022-12-09,MP9 | Dark Age,Field-Tested
-2022-12-10,USP-S | Caiman,Minimal Wear
-2022-12-11,MP9 | Green Plaid,Field-Tested
-2022-12-12,Desert Eagle | Sunset Storm 壱,Field-Tested
-2022-12-13,SSG 08 | Blood in the Water,Field-Tested
-2022-12-14,M4A4 | Bullet Rain,Factory New
-2022-12-15,MAG-7 | Prism Terrace,Factory New
-2022-12-16,AUG | Flame Jörmungandr,Factory New
-2022-12-17,AK-47 | Fire Serpent,Field-Tested
-2022-12-18,Sawed-Off | Copper,Field-Tested
-2022-12-19,SSG 08 | Orange Filigree,Battle-Scarred
-2022-12-20,P250 | Whiteout,Well-Worn
-2022-12-21,AWP | Atheris,Factory New
-2022-12-22,CZ75-Auto | Emerald,Factory New
-2022-12-23,USP-S | Monster Mashup,Minimal Wear
-2022-12-24,Desert Eagle | Kumicho Dragon,Well-Worn
-2022-12-25,SG 553 | Hazard Pay,Battle-Scarred
-2022-12-26,Desert Eagle | Sunset Storm 弐,Minimal Wear
-2022-12-27,M4A1-S | Dark Water,Minimal Wear
-2022-12-28,AWP | Oni Taiji,Battle-Scarred
-2022-12-29,SG 553 | Cyrex,Factory New
-2022-12-30,Galil AR | Cerberus,Field-Tested
-2022-12-31,SG 553 | Bulldozer,Battle-Scarred
-2023-01-01,AUG | Anodized Navy,Factory New
-2023-01-02,USP-S | The Traitor,Field-Tested
-2023-01-03,AK-47 | Redline,Minimal Wear
-2023-01-04,AUG | Wings,Minimal Wear
-2023-01-05,P90 | Desert Warfare,Battle-Scarred
-2023-01-06,AWP | Desert Hydra,Well-Worn
-2023-01-07,AK-47 | The Empress,Well-Worn
-2023-01-08,Five-SeveN | Fall Hazard,Well-Worn
-2023-01-09,MAG-7 | Counter Terrace,Battle-Scarred
-2023-01-10,AK-47 | Bloodsport,Well-Worn
-2023-01-11,Negev | Nuclear Waste,Well-Worn
-2023-01-12,M4A1-S | Knight,Minimal Wear
-2023-01-13,UMP-45 | Minotaur's Labyrinth,Minimal Wear
-2023-01-14,SSG 08 | Bloodshot,Minimal Wear
-2023-01-15,SCAR-20 | Cardiac,Factory New
-2023-01-16,AWP | Dragon Lore,Factory New
-2023-01-17,USP-S | Ancient Visions,Factory New
-2023-01-18,AK-47 | Phantom Disruptor,Factory New
-2023-01-19,Five-SeveN | Candy Apple,Field-Tested
-2023-01-20,P250 | Mehndi,Minimal Wear
-2023-01-21,M4A4 | The Emperor,Minimal Wear
-2023-01-22,G3SG1 | The Executioner,Minimal Wear
-2023-01-23,Five-SeveN | Jungle,Factory New
-2023-01-24,Desert Eagle | Emerald Jörmungandr,Field-Tested
-2023-01-25,SSG 08 | Tropical Storm,Factory New
-2023-01-26,MP9 | Wild Lily,Well-Worn
-2023-01-27,G3SG1 | Chronos,Field-Tested
-2023-01-28,USP-S | Business Class,Well-Worn
-2023-01-29,M4A4 | Jungle Tiger,Factory New
-2023-01-30,AK-47 | Black Laminate,Field-Tested
-2023-01-31,AWP | Gungnir,Well-Worn
-2023-02-01,UMP-45 | Caramel,Factory New
-2023-02-02,Galil AR | CAUTION!,Battle-Scarred
-2023-02-03,SSG 08 | Sea Calico,Factory New
-2023-02-04,M4A4 | Desolate Space,Factory New
-2023-02-05,Desert Eagle | Hypnotic,Minimal Wear
-2023-02-06,Negev | CaliCamo,Minimal Wear
-2023-02-07,XM1014 | Grassland,Factory New
-2023-02-08,FAMAS | Contrast Spray,Factory New
-2023-02-09,USP-S | Target Acquired,Minimal Wear
-2023-02-10,AUG | Sand Storm,Battle-Scarred
-2023-02-11,FAMAS | Prime Conspiracy,Battle-Scarred
-2023-02-12,AK-47 | Predator,Field-Tested
-2023-02-13,MP9 | Starlight Protector,Minimal Wear
-2023-02-14,XM1014 | Jungle,Factory New
-2023-02-15,Dual Berettas | Melondrama,Factory New
-2023-02-16,M4A1-S | Hyper Beast,Factory New
-2023-02-17,MAC-10 | Curse,Battle-Scarred
-2023-02-18,SCAR-20 | Cyrex,Well-Worn
-2023-02-19,Desert Eagle | Code Red,Well-Worn
-2023-02-20,P250 | Gunsmoke,Factory New
-2023-02-21,Five-SeveN | Crimson Blossom,Field-Tested
-2023-02-22,P250 | Cartel,Factory New
-2023-02-23,P2000 | Ocean Foam,Factory New
-2023-02-24,CZ75-Auto | Emerald Quartz,Well-Worn
-2023-02-25,MAC-10 | Graven,Battle-Scarred
-2023-02-26,M4A4 | X-Ray,Factory New
-2023-02-27,Galil AR | Chatterbox,Field-Tested
-2023-02-28,SSG 08 | Big Iron,Minimal Wear
-2023-03-01,M4A4 | Daybreak,Well-Worn
-2023-03-02,Desert Eagle | Hand Cannon,Factory New
-2023-03-03,AWP | Redline,Field-Tested
-2023-03-04,Glock-18 | Gamma Doppler,Minimal Wear
-2023-03-05,AWP | Man-o'-war,Field-Tested
-2023-03-06,MAG-7 | Bulldozer,Factory New
-2023-03-07,SG 553 | Tornado,Factory New
-2023-03-08,Galil AR | Eco,Minimal Wear
-2023-03-09,SCAR-20 | Emerald,Minimal Wear
-2023-03-10,Desert Eagle | Ocean Drive,Minimal Wear
-2023-03-11,SSG 08 | Death Strike,Well-Worn
-2023-03-12,Glock-18 | Synth Leaf,Well-Worn
-2023-03-13,AK-47 | Legion of Anubis,Minimal Wear
-2023-03-14,AWP | Fade,Factory New
-2023-03-15,M4A4 | The Coalition,Field-Tested
-2023-03-16,Glock-18 | Twilight Galaxy,Minimal Wear
-2023-03-17,M249 | Blizzard Marbleized,Minimal Wear
-2023-03-18,Tec-9 | Brass,Factory New
-2023-03-19,SSG 08 | Detour,Factory New
-2023-03-20,AK-47 | Red Laminate,Well-Worn
-2023-03-21,M4A4 | Modern Hunter,Minimal Wear
-2023-03-22,AUG | Midnight Lily,Well-Worn
-2023-03-23,M4A4 | Desert Storm,Field-Tested
-2023-03-24,AK-47 | Vulcan,Field-Tested
-2023-03-25,Sawed-Off | Orange DDPAT,Field-Tested
-2023-03-26,USP-S | Serum,Factory New
-2023-03-27,Desert Eagle | Fennec Fox,Field-Tested
-2023-03-28,Dual Berettas | Duelist,Factory New
-2023-03-29,P250 | Nuclear Threat,Minimal Wear
-2023-03-30,AK-47 | Neon Revolution,Well-Worn
-2023-03-31,MAC-10 | Copper Borre,Battle-Scarred
-2023-04-01,M4A1-S | Imminent Danger,Minimal Wear
-2023-04-02,Galil AR | Shattered,Factory New
-2023-04-03,Glock-18 | Franklin,Well-Worn
-2023-04-04,P90 | Cold Blooded,Factory New
-2023-04-05,P2000 | Grassland Leaves,Factory New
-2023-04-06,AK-47 | Jet Set,Battle-Scarred
-2023-04-07,M4A1-S | Welcome to the Jungle,Well-Worn
-2023-04-08,G3SG1 | Flux,Factory New
-2023-04-09,SG 553 | Wave Spray,Factory New
-2023-04-10,Glock-18 | Pink DDPAT,Battle-Scarred
-2023-04-11,Glock-18 | Fade,Minimal Wear
-2023-04-12,P250 | Facets,Battle-Scarred
-2023-04-13,CZ75-Auto | Nitro,Factory New
-2023-04-14,AWP | Graphite,Minimal Wear
-2023-04-15,Dual Berettas | Cobra Strike,Factory New
-2023-04-16,UMP-45 | Fade,Factory New
-2023-04-17,M4A1-S | Leaded Glass,Factory New
-2023-04-18,USP-S | Blueprint,Factory New
-2023-04-19,XM1014 | Frost Borre,Field-Tested
-2023-04-20,Sawed-Off | Rust Coat,Factory New
-2023-04-21,USP-S | Road Rash,Factory New
-2023-04-22,M4A4 | Poseidon,Factory New
-2023-04-23,UMP-45 | Blaze,Factory New
-2023-04-24,M4A4 | Tornado,Factory New
-2023-04-25,M4A1-S | Control Panel,Minimal Wear
-2023-04-26,AWP | Lightning Strike,Factory New
-2023-04-27,AK-47 | Gold Arabesque,Minimal Wear
-2023-04-28,AK-47 | Case Hardened,Factory New
-2023-04-29,XM1014 | Elegant Vines,Minimal Wear
-2023-04-30,M4A1-S | Decimator,Factory New
-2023-05-01,P90 | Astral Jörmungandr,Field-Tested
-2023-05-02,P250 | Undertow,Field-Tested
-2023-05-03,MAC-10 | Case Hardened,Factory New
-2023-05-04,AWP | Containment Breach,Battle-Scarred
-2023-05-05,USP-S | Royal Blue,Factory New
-2023-05-06,Dual Berettas | Twin Turbo,Factory New
-2023-05-07,M4A1-S | Hot Rod,Factory New
-2023-05-08,AUG | Hot Rod,Factory New
-2023-05-09,Five-SeveN | Neon Kimono,Factory New
-2023-05-10,P250 | Vino Primo,Factory New
-2023-05-11,Five-SeveN | Hyper Beast,Field-Tested
-2023-05-12,Desert Eagle | Blaze,Factory New
-2023-05-13,M4A1-S | Printstream,Minimal Wear
-2023-05-14,P250 | Digital Architect,Field-Tested
-2023-05-15,P90 | Death by Kitty,Minimal Wear
-2023-05-16,MP7 | Skulls,Minimal Wear
-2023-05-17,AUG | Colony,Battle-Scarred
-2023-05-18,M4A4 | Neo-Noir,Minimal Wear
-2023-05-19,Five-SeveN | Fairy Tale,Factory New
-2023-05-20,M4A4 | Faded Zebra,Factory New
-2023-05-21,Glock-18 | Neo-Noir,Minimal Wear
-2023-05-22,UMP-45 | Day Lily,Field-Tested
-2023-05-23,Glock-18 | Night,Factory New
-2023-05-24,MAG-7 | Chainmail,Factory New
-2023-05-25,USP-S | Overgrowth,Battle-Scarred
-2023-05-26,Sawed-Off | Devourer,Factory New
-2023-05-27,M4A1-S | Moss Quartz,Battle-Scarred
-2023-05-28,MAG-7 | Hazard,Factory New
-2023-05-29,P90 | Run and Hide,Field-Tested
-2023-05-30,M4A4 | Cyber Security,Factory New
-2023-05-31,AK-47 | Neon Rider,Battle-Scarred
-2023-06-01,AWP | Electric Hive,Well-Worn
-2023-06-02,AK-47 | Emerald Pinstripe,Factory New
-2023-06-03,AWP | Elite Build,Factory New
-2023-06-04,M4A4 | Howl,Field-Tested
-2023-06-05,M4A1-S | Icarus Fell,Factory New
-2023-06-06,PP-Bizon | Carbon Fiber,Minimal Wear
-2023-06-07,Five-SeveN | Berries And Cherries,Factory New
-2023-06-08,Desert Eagle | Golden Koi,Minimal Wear
-2023-06-09,USP-S | Whiteout,Factory New
-2023-06-10,MAC-10 | Disco Tech,Factory New
-2023-06-11,XM1014 | Ancient Lore,Battle-Scarred
-2023-06-12,AUG | Copperhead,Field-Tested
-2023-06-13,MP9 | Hydra,Factory New
-2023-06-14,P90 | Asiimov,Minimal Wear
-2023-06-15,MP9 | Stained Glass,Field-Tested
-2023-06-16,FAMAS | Sundown,Factory New
-2023-06-17,SG 553 | Integrale,Factory New
-2023-06-18,AK-47 | X-Ray,Battle-Scarred
-2023-06-19,Nova | Forest Leaves,Factory New
-2023-06-20,AK-47 | Fuel Injector,Factory New
-2023-06-21,SSG 08 | Dragonfire,Factory New
-2023-06-22,FAMAS | Roll Cage,Factory New
-2023-06-23,M4A1-S | Briefing,Factory New
-2023-06-24,M4A1-S | Chantico's Fire,Field-Tested
-2023-06-25,CZ75-Auto | Crimson Web,Factory New
-2023-06-26,MAC-10 | Red Filigree,Field-Tested
-2023-06-27,Galil AR | Orange DDPAT,Factory New
-2023-06-28,AWP | Silk Tiger,Field-Tested
-2023-06-29,AK-47 | Point Disarray,Factory New
-2023-06-30,MP9 | Pandora's Box,Factory New
-2023-07-01,Negev | Anodized Navy,Factory New
-2023-07-02,PP-Bizon | Rust Coat,Factory New
-2023-07-03,M249 | Shipping Forecast,Well-Worn
-2023-07-04,Sawed-Off | Mosaico,Factory New
-2023-07-05,Desert Eagle | Crimson Web,Factory New
-2023-07-06,M4A1-S | Atomic Alloy,Minimal Wear
-2023-07-07,AWP | Neo-Noir,Factory New
-2023-07-08,AK-47 | Slate,Factory New
-2023-07-09,M4A4 | Asiimov,Battle-Scarred
-2023-07-10,Glock-18 | Bullet Queen,Factory New
-2023-07-11,P2000 | Chainmail,Field-Tested
-2023-07-12,SCAR-20 | Splash Jam,Factory New
-2023-07-13,Galil AR | Winter Forest,Factory New
-2023-07-14,M4A4 | Radiation Hazard,Minimal Wear
-2023-07-15,P90 | Glacier Mesh,Factory New
-2023-07-16,AK-47 | Hydroponic,Field-Tested
-2023-07-17,XM1014 | Fallout Warning,Factory New
-2023-07-18,MP9 | Hot Rod,Minimal Wear
-2023-07-19,MP5-SD | Oxide Oasis,Well-Worn
-2023-07-20,P90 | Scorched,Well-Worn
-2023-07-21,CZ75-Auto | Chalice,Minimal Wear
-2023-07-22,SCAR-20 | Brass,Battle-Scarred
-2023-07-23,MAC-10 | Hot Snakes,Field-Tested
-2023-07-24,M4A4 | 龍王 (Dragon King),Factory New
-2023-07-25,AK-47 | Aquamarine Revenge,Well-Worn
-2023-07-26,Tec-9 | Hades,Factory New
-2023-07-27,M4A4 | Zirka,Factory New
-2023-07-28,AK-47 | Green Laminate,Well-Worn
-2023-07-29,AK-47 | Nightwish,Factory New
-2023-07-30,AWP | The Prince,Well-Worn
-2023-07-31,M4A1-S | Cyrex,Battle-Scarred
-2023-08-01,Desert Eagle | Night,Factory New
-2023-08-02,Nova | Bloomstick,Factory New
-2023-08-03,XM1014 | Bone Machine,Battle-Scarred
-2023-08-04,Glock-18 | Groundwater,Factory New
-2023-08-05,SCAR-20 | Palm,Battle-Scarred
-2023-08-06,FAMAS | Rapid Eye Movement,Factory New
-2023-08-07,XM1014 | Red Leather,Minimal Wear
-2023-08-08,SSG 08 | Sand Dune,Factory New
-2023-08-09,MAC-10 | Urban DDPAT,Factory New
-2023-08-10,R8 Revolver | Fade,Factory New
-2023-08-11,AWP | Asiimov,Well-Worn
-2023-08-12,SG 553 | Hypnotic,Factory New
-2023-08-13,AK-47 | Cartel,Factory New
-2023-08-14,UMP-45 | Fallout Warning,Factory New
-2023-08-15,MP7 | Full Stop,Well-Worn
-2023-08-16,Nova | Blaze Orange,Minimal Wear
-2023-08-17,AK-47 | First Class,Minimal Wear
-2023-08-18,USP-S | Kill Confirmed,Well-Worn
-2023-08-19,Nova | Hyper Beast,Minimal Wear
-2023-08-20,AWP | Medusa,Factory New
-2023-08-21,AWP | BOOM,Factory New
-2023-08-22,AK-47 | Wasteland Rebel,Battle-Scarred
-2023-08-23,UMP-45 | Crime Scene,Battle-Scarred
-2023-08-24,Desert Eagle | Urban DDPAT,Factory New
-2023-08-25,MP7 | Whiteout,Factory New
-2023-08-26,SSG 08 | Mayan Dreams,Factory New
-2023-08-27,P2000 | Coach Class,Factory New
-2023-08-28,AK-47 | Wild Lotus,Field-Tested
-2023-08-29,M4A4 | Hellfire,Minimal Wear
-2023-08-30,AK-47 | Jungle Spray,Factory New
-2023-08-31,Negev | Mjölnir,Factory New
-2023-09-01,MAG-7 | Cinquedea,Field-Tested
-2023-09-02,M4A1-S | Mecha Industries,Factory New
-2023-09-03,FAMAS | Meltdown,Factory New
-2023-09-04,XM1014 | Tranquility,Factory New
-2023-09-05,Glock-18 | Dragon Tattoo,Minimal Wear
-2023-09-06,MP9 | Dry Season,Factory New
-2023-09-07,M4A1-S | Blue Phosphor,Minimal Wear
-2023-09-08,M4A1-S | Bright Water,Minimal Wear
-2023-09-09,M4A1-S | Guardian,Field-Tested
-2023-09-10,USP-S | Orion,Well-Worn
-2023-09-11,Desert Eagle | Printstream,Factory New
-2023-09-12,Glock-18 | Brass,Factory New
-2023-09-13,Tec-9 | Nuclear Threat,Well-Worn
-2023-09-14,Glock-18 | Sand Dune,Factory New
-2023-09-15,AUG | Momentum,Factory New
-2023-09-16,Five-SeveN | Case Hardened,Factory New
-2023-09-17,AK-47 | Frontside Misty,Well-Worn
-2023-09-18,M4A4 | In Living Color,Factory New
-2023-09-19,MP7 | Abyssal Apparition,Factory New
-2023-09-20,AWP | Pink DDPAT,Factory New
-2023-09-21,Desert Eagle | Heirloom,Factory New
-2023-09-22,AWP | Hyper Beast,Well-Worn
-2023-09-23,SCAR-20 | Crimson Web,Factory New
-2023-09-24,AK-47 | Asiimov,Factory New
-2023-09-25,Five-SeveN | Nitro,Well-Worn
-2023-09-26,Nova | Baroque Orange,Minimal Wear
-2023-09-27,MAC-10 | Stalker,Minimal Wear
-2023-09-28,XM1014 | Blaze Orange,Factory New
-2023-09-29,Negev | Palm,Factory New
-2023-09-30,G3SG1 | Arctic Camo,Minimal Wear
+2022-10-04,Nova | Bloomstick,Factory New
+2022-10-05,AK-47 | Jet Set,Minimal Wear
+2022-10-06,MAC-10 | Fade,Factory New
+2022-10-07,P250 | Mehndi,Minimal Wear
+2022-10-08,MAG-7 | Hazard,Well-Worn
+2022-10-09,Five-SeveN | Hyper Beast,Battle-Scarred
+2022-10-10,Glock-18 | Dragon Tattoo,Factory New
+2022-10-11,AK-47 | Gold Arabesque,Battle-Scarred
+2022-10-12,M4A4 | Red DDPAT,Well-Worn
+2022-10-13,MP9 | Starlight Protector,Factory New
+2022-10-14,M4A4 | Buzz Kill,Factory New
+2022-10-15,P250 | Bengal Tiger,Factory New
+2022-10-16,M4A4 | Tornado,Factory New
+2022-10-17,CZ75-Auto | Poison Dart,Well-Worn
+2022-10-18,AUG | Wings,Minimal Wear
+2022-10-19,Desert Eagle | Night,Factory New
+2022-10-20,AK-47 | Neon Revolution,Battle-Scarred
+2022-10-21,Desert Eagle | Ocean Drive,Well-Worn
+2022-10-22,AWP | The Prince,Field-Tested
+2022-10-23,P90 | Death by Kitty,Minimal Wear
+2022-10-24,SG 553 | Ultraviolet,Battle-Scarred
+2022-10-25,M4A1-S | Chantico's Fire,Minimal Wear
+2022-10-26,Sawed-Off | Copper,Battle-Scarred
+2022-10-27,CZ75-Auto | Nitro,Well-Worn
+2022-10-28,Sawed-Off | Kiss♥Love,Minimal Wear
+2022-10-29,SG 553 | Colony IV,Minimal Wear
+2022-10-30,M4A1-S | Imminent Danger,Factory New
+2022-10-31,MAG-7 | Sand Dune,Factory New
+2022-11-01,M4A1-S | Nightmare,Factory New
+2022-11-02,SG 553 | Cyrex,Factory New
+2022-11-03,AWP | Oni Taiji,Battle-Scarred
+2022-11-04,M4A1-S | Blue Phosphor,Minimal Wear
+2022-11-05,SCAR-20 | Palm,Well-Worn
+2022-11-06,AUG | Midnight Lily,Field-Tested
+2022-11-07,Negev | Palm,Factory New
+2022-11-08,XM1014 | Frost Borre,Factory New
+2022-11-09,Desert Eagle | Hypnotic,Factory New
+2022-11-10,P250 | Visions,Factory New
+2022-11-11,SSG 08 | Orange Filigree,Battle-Scarred
+2022-11-12,M4A1-S | Dark Water,Minimal Wear
+2022-11-13,MP7 | Skulls,Minimal Wear
+2022-11-14,M4A1-S | Cyrex,Factory New
+2022-11-15,Five-SeveN | Crimson Blossom,Minimal Wear
+2022-11-16,P250 | Asiimov,Minimal Wear
+2022-11-17,Dual Berettas | Cobra Strike,Factory New
+2022-11-18,AUG | Anodized Navy,Factory New
+2022-11-19,Nova | Modern Hunter,Minimal Wear
+2022-11-20,SSG 08 | Mayan Dreams,Factory New
+2022-11-21,M4A4 | Neo-Noir,Factory New
+2022-11-22,MP9 | Pandora's Box,Factory New
+2022-11-23,M4A4 | Modern Hunter,Battle-Scarred
+2022-11-24,AUG | Flame Jörmungandr,Well-Worn
+2022-11-25,P90 | Glacier Mesh,Factory New
+2022-11-26,M4A1-S | Player Two,Field-Tested
+2022-11-27,Five-SeveN | Berries And Cherries,Factory New
+2022-11-28,Glock-18 | Twilight Galaxy,Factory New
+2022-11-29,M4A4 | Poseidon,Factory New
+2022-11-30,FAMAS | Afterimage,Factory New
+2022-12-01,Galil AR | CAUTION!,Well-Worn
+2022-12-02,AK-47 | X-Ray,Factory New
+2022-12-03,M4A1-S | Master Piece,Minimal Wear
+2022-12-04,AK-47 | Frontside Misty,Minimal Wear
+2022-12-05,AK-47 | The Empress,Battle-Scarred
+2022-12-06,P2000 | Amber Fade,Factory New
+2022-12-07,SSG 08 | Dragonfire,Factory New
+2022-12-08,AWP | Electric Hive,Well-Worn
+2022-12-09,SCAR-20 | Emerald,Minimal Wear
+2022-12-10,AUG | Akihabara Accept,Minimal Wear
+2022-12-11,P250 | Modern Hunter,Well-Worn
+2022-12-12,MAC-10 | Case Hardened,Battle-Scarred
+2022-12-13,Desert Eagle | Blaze,Minimal Wear
+2022-12-14,AK-47 | Hydroponic,Well-Worn
+2022-12-15,USP-S | Business Class,Well-Worn
+2022-12-16,G3SG1 | The Executioner,Minimal Wear
+2022-12-17,AUG | Bengal Tiger,Factory New
+2022-12-18,AK-47 | Emerald Pinstripe,Factory New
+2022-12-19,USP-S | Target Acquired,Well-Worn
+2022-12-20,UMP-45 | Minotaur's Labyrinth,Minimal Wear
+2022-12-21,SSG 08 | Big Iron,Factory New
+2022-12-22,FAMAS | Spitfire,Minimal Wear
+2022-12-23,P250 | Undertow,Factory New
+2022-12-24,PP-Bizon | Modern Hunter,Factory New
+2022-12-25,Nova | Hyper Beast,Factory New
+2022-12-26,AK-47 | Vulcan,Minimal Wear
+2022-12-27,SG 553 | Hazard Pay,Field-Tested
+2022-12-28,M4A4 | Howl,Field-Tested
+2022-12-29,AK-47 | Fuel Injector,Minimal Wear
+2022-12-30,MAG-7 | Counter Terrace,Factory New
+2022-12-31,CZ75-Auto | Emerald,Factory New
+2023-01-01,Desert Eagle | Fennec Fox,Field-Tested
+2023-01-02,AK-47 | Redline,Well-Worn
+2023-01-03,USP-S | Orion,Minimal Wear
+2023-01-04,Tec-9 | Nuclear Threat,Factory New
+2023-01-05,SSG 08 | Tropical Storm,Factory New
+2023-01-06,Tec-9 | Ossified,Minimal Wear
+2023-01-07,Dual Berettas | Duelist,Field-Tested
+2023-01-08,AK-47 | Point Disarray,Factory New
+2023-01-09,P90 | Asiimov,Factory New
+2023-01-10,AWP | Atheris,Factory New
+2023-01-11,AWP | Desert Hydra,Minimal Wear
+2023-01-12,M4A4 | Bullet Rain,Battle-Scarred
+2023-01-13,MAG-7 | Cinquedea,Field-Tested
+2023-01-14,M4A1-S | Golden Coil,Battle-Scarred
+2023-01-15,CZ75-Auto | Emerald Quartz,Minimal Wear
+2023-01-16,AWP | Chromatic Aberration,Field-Tested
+2023-01-17,Five-SeveN | Fairy Tale,Factory New
+2023-01-18,Desert Eagle | Crimson Web,Minimal Wear
+2023-01-19,MP9 | Setting Sun,Battle-Scarred
+2023-01-20,Glock-18 | Franklin,Factory New
+2023-01-21,AK-47 | Cartel,Factory New
+2023-01-22,M4A4 | Royal Paladin,Minimal Wear
+2023-01-23,M4A1-S | Hyper Beast,Field-Tested
+2023-01-24,Desert Eagle | Pilot,Minimal Wear
+2023-01-25,AK-47 | First Class,Field-Tested
+2023-01-26,SG 553 | Integrale,Minimal Wear
+2023-01-27,AWP | Silk Tiger,Minimal Wear
+2023-01-28,Glock-18 | Pink DDPAT,Field-Tested
+2023-01-29,AK-47 | Legion of Anubis,Factory New
+2023-01-30,Glock-18 | Sand Dune,Factory New
+2023-01-31,M4A1-S | Printstream,Well-Worn
+2023-02-01,USP-S | Neo-Noir,Factory New
+2023-02-02,M4A1-S | Briefing,Factory New
+2023-02-03,AK-47 | Jungle Spray,Factory New
+2023-02-04,SCAR-20 | Cardiac,Factory New
+2023-02-05,MAC-10 | Commuter,Factory New
+2023-02-06,Galil AR | Urban Rubble,Battle-Scarred
+2023-02-07,AWP | Elite Build,Minimal Wear
+2023-02-08,M4A1-S | Bright Water,Field-Tested
+2023-02-09,AK-47 | Wild Lotus,Well-Worn
+2023-02-10,M4A1-S | Hot Rod,Factory New
+2023-02-11,Glock-18 | Snack Attack,Factory New
+2023-02-12,AWP | Corticera,Minimal Wear
+2023-02-13,P90 | Desert Warfare,Battle-Scarred
+2023-02-14,FAMAS | Sundown,Field-Tested
+2023-02-15,XM1014 | Jungle,Factory New
+2023-02-16,SG 553 | Tornado,Factory New
+2023-02-17,XM1014 | Ancient Lore,Minimal Wear
+2023-02-18,Galil AR | Aqua Terrace,Battle-Scarred
+2023-02-19,MP9 | Hot Rod,Minimal Wear
+2023-02-20,P250 | Facets,Factory New
+2023-02-21,Galil AR | Orange DDPAT,Minimal Wear
+2023-02-22,P250 | Splash,Minimal Wear
+2023-02-23,AWP | Asiimov,Battle-Scarred
+2023-02-24,AK-47 | Bloodsport,Well-Worn
+2023-02-25,SCAR-20 | Cyrex,Well-Worn
+2023-02-26,M4A4 | The Emperor,Factory New
+2023-02-27,MP5-SD | Oxide Oasis,Factory New
+2023-02-28,M4A4 | 龍王 (Dragon King),Factory New
+2023-03-01,Glock-18 | Night,Factory New
+2023-03-02,MAG-7 | Chainmail,Minimal Wear
+2023-03-03,M4A1-S | Knight,Minimal Wear
+2023-03-04,FAMAS | Commemoration,Minimal Wear
+2023-03-05,Tec-9 | Terrace,Battle-Scarred
+2023-03-06,G3SG1 | Chronos,Well-Worn
+2023-03-07,AWP | Pink DDPAT,Minimal Wear
+2023-03-08,P250 | Gunsmoke,Factory New
+2023-03-09,Nova | Walnut,Factory New
+2023-03-10,AK-47 | Nightwish,Field-Tested
+2023-03-11,MAC-10 | Tornado,Factory New
+2023-03-12,PP-Bizon | Forest Leaves,Factory New
+2023-03-13,CZ75-Auto | Crimson Web,Factory New
+2023-03-14,MAC-10 | Graven,Factory New
+2023-03-15,MAG-7 | Bulldozer,Factory New
+2023-03-16,Desert Eagle | Emerald Jörmungandr,Minimal Wear
+2023-03-17,USP-S | Ancient Visions,Factory New
+2023-03-18,Nova | Baroque Orange,Minimal Wear
+2023-03-19,CZ75-Auto | Chalice,Minimal Wear
+2023-03-20,FAMAS | Prime Conspiracy,Field-Tested
+2023-03-21,Five-SeveN | Neon Kimono,Battle-Scarred
+2023-03-22,P250 | Nuclear Threat,Minimal Wear
+2023-03-23,Tec-9 | Tornado,Factory New
+2023-03-24,XM1014 | Blaze Orange,Minimal Wear
+2023-03-25,AK-47 | Fire Serpent,Factory New
+2023-03-26,M4A1-S | Mecha Industries,Minimal Wear
+2023-03-27,MAC-10 | Disco Tech,Factory New
+2023-03-28,M4A4 | Hellfire,Battle-Scarred
+2023-03-29,SSG 08 | Bloodshot,Minimal Wear
+2023-03-30,SSG 08 | Lichen Dashed,Factory New
+2023-03-31,MP9 | Hydra,Factory New
+2023-04-01,Dual Berettas | Black Limba,Factory New
+2023-04-02,Five-SeveN | Case Hardened,Factory New
+2023-04-03,M249 | Blizzard Marbleized,Minimal Wear
+2023-04-04,AWP | Neo-Noir,Factory New
+2023-04-05,AK-47 | Black Laminate,Battle-Scarred
+2023-04-06,Galil AR | Winter Forest,Battle-Scarred
+2023-04-07,UMP-45 | Day Lily,Field-Tested
+2023-04-08,M4A1-S | Control Panel,Minimal Wear
+2023-04-09,MP7 | Full Stop,Battle-Scarred
+2023-04-10,USP-S | Road Rash,Field-Tested
+2023-04-11,Desert Eagle | Sunset Storm 弐,Factory New
+2023-04-12,PP-Bizon | Irradiated Alert,Factory New
+2023-04-13,G3SG1 | Demeter,Factory New
+2023-04-14,Galil AR | Sugar Rush,Factory New
+2023-04-15,USP-S | Stainless,Factory New
+2023-04-16,XM1014 | Fallout Warning,Well-Worn
+2023-04-17,AK-47 | Wasteland Rebel,Factory New
+2023-04-18,MAC-10 | Red Filigree,Factory New
+2023-04-19,AK-47 | Panthera onca,Minimal Wear
+2023-04-20,M4A4 | Desolate Space,Factory New
+2023-04-21,Galil AR | Phoenix Blacklight,Factory New
+2023-04-22,AK-47 | Jaguar,Field-Tested
+2023-04-23,SCAR-20 | Splash Jam,Factory New
+2023-04-24,M4A4 | Daybreak,Factory New
+2023-04-25,MP7 | Teal Blossom,Field-Tested
+2023-04-26,SCAR-20 | Brass,Battle-Scarred
+2023-04-27,P90 | Cold Blooded,Minimal Wear
+2023-04-28,Galil AR | Amber Fade,Well-Worn
+2023-04-29,Five-SeveN | Candy Apple,Minimal Wear
+2023-04-30,XM1014 | Grassland,Factory New
+2023-05-01,M4A4 | Desert Storm,Minimal Wear
+2023-05-02,Desert Eagle | Kumicho Dragon,Well-Worn
+2023-05-03,UMP-45 | Blaze,Minimal Wear
+2023-05-04,P2000 | Fire Elemental,Factory New
+2023-05-05,Nova | Forest Leaves,Factory New
+2023-05-06,SSG 08 | Death Strike,Well-Worn
+2023-05-07,M4A4 | Asiimov,Battle-Scarred
+2023-05-08,M4A1-S | Decimator,Field-Tested
+2023-05-09,USP-S | Caiman,Field-Tested
+2023-05-10,M4A1-S | Moss Quartz,Well-Worn
+2023-05-11,Five-SeveN | Fall Hazard,Well-Worn
+2023-05-12,M4A4 | Jungle Tiger,Factory New
+2023-05-13,USP-S | Blueprint,Factory New
+2023-05-14,UMP-45 | Crime Scene,Well-Worn
+2023-05-15,AWP | Redline,Minimal Wear
+2023-05-16,MAC-10 | Curse,Battle-Scarred
+2023-05-17,Glock-18 | Fade,Factory New
+2023-05-18,AWP | Wildfire,Battle-Scarred
+2023-05-19,Sawed-Off | First Class,Minimal Wear
+2023-05-20,Five-SeveN | Nitro,Minimal Wear
+2023-05-21,AWP | Man-o'-war,Minimal Wear
+2023-05-22,Desert Eagle | Sunset Storm 壱,Factory New
+2023-05-23,Glock-18 | Bullet Queen,Minimal Wear
+2023-05-24,Dual Berettas | Pyre,Factory New
+2023-05-25,AUG | Copperhead,Minimal Wear
+2023-05-26,Glock-18 | Brass,Minimal Wear
+2023-05-27,USP-S | Dark Water,Field-Tested
+2023-05-28,Glock-18 | Gamma Doppler,Battle-Scarred
+2023-05-29,UMP-45 | Fallout Warning,Factory New
+2023-05-30,Nova | Green Apple,Field-Tested
+2023-05-31,G3SG1 | Arctic Camo,Factory New
+2023-06-01,AUG | Hot Rod,Factory New
+2023-06-02,P90 | Fallout Warning,Factory New
+2023-06-03,MP9 | Dark Age,Minimal Wear
+2023-06-04,Dual Berettas | Twin Turbo,Factory New
+2023-06-05,USP-S | Monster Mashup,Factory New
+2023-06-06,P2000 | Silver,Minimal Wear
+2023-06-07,M249 | Jungle DDPAT,Factory New
+2023-06-08,Sawed-Off | Orange DDPAT,Battle-Scarred
+2023-06-09,Desert Eagle | Printstream,Battle-Scarred
+2023-06-10,SSG 08 | Blood in the Water,Factory New
+2023-06-11,AK-47 | Predator,Well-Worn
+2023-06-12,Dual Berettas | Marina,Factory New
+2023-06-13,Desert Eagle | Hand Cannon,Battle-Scarred
+2023-06-14,USP-S | Royal Blue,Factory New
+2023-06-15,AWP | Snake Camo,Well-Worn
+2023-06-16,P90 | Baroque Red,Well-Worn
+2023-06-17,MAC-10 | Copper Borre,Battle-Scarred
+2023-06-18,MAC-10 | Ultraviolet,Factory New
+2023-06-19,AK-47 | Aquamarine Revenge,Well-Worn
+2023-06-20,Glock-18 | Groundwater,Factory New
+2023-06-21,P250 | Cartel,Battle-Scarred
+2023-06-22,Tec-9 | Brass,Factory New
+2023-06-23,Desert Eagle | Code Red,Battle-Scarred
+2023-06-24,AWP | BOOM,Minimal Wear
+2023-06-25,Tec-9 | Decimator,Minimal Wear
+2023-06-26,AWP | Hyper Beast,Well-Worn
+2023-06-27,MAC-10 | Gold Brick,Well-Worn
+2023-06-28,SG 553 | Hypnotic,Factory New
+2023-06-29,AK-47 | Leet Museo,Factory New
+2023-06-30,AWP | Gungnir,Minimal Wear
+2023-07-01,Sawed-Off | Mosaico,Factory New
+2023-07-02,P90 | Emerald Dragon,Battle-Scarred
+2023-07-03,CZ75-Auto | The Fuschia Is Now,Well-Worn
+2023-07-04,XM1014 | Elegant Vines,Field-Tested
+2023-07-05,Tec-9 | Hades,Well-Worn
+2023-07-06,Desert Eagle | Cobalt Disruption,Factory New
+2023-07-07,Dual Berettas | Emerald,Minimal Wear
+2023-07-08,AUG | Momentum,Factory New
+2023-07-09,FAMAS | Roll Cage,Factory New
+2023-07-10,FAMAS | Contrast Spray,Minimal Wear
+2023-07-11,USP-S | Kill Confirmed,Battle-Scarred
+2023-07-12,MP7 | Whiteout,Minimal Wear
+2023-07-13,P250 | Crimson Kimono,Well-Worn
+2023-07-14,M4A4 | Radiation Hazard,Well-Worn
+2023-07-15,P2000 | Grassland Leaves,Factory New
+2023-07-16,AK-47 | Neon Rider,Battle-Scarred
+2023-07-17,UMP-45 | Fade,Minimal Wear
+2023-07-18,M4A1-S | Welcome to the Jungle,Battle-Scarred
+2023-07-19,M4A4 | Zirka,Factory New
+2023-07-20,P2000 | Chainmail,Field-Tested
+2023-07-21,AWP | Dragon Lore,Factory New
+2023-07-22,AK-47 | Asiimov,Battle-Scarred
+2023-07-23,USP-S | The Traitor,Minimal Wear
+2023-07-24,AWP | Sun in Leo,Field-Tested
+2023-07-25,P2000 | Ocean Foam,Minimal Wear
+2023-07-26,XM1014 | Tranquility,Factory New
+2023-07-27,Desert Eagle | Midnight Storm,Factory New
+2023-07-28,Negev | Mjölnir,Battle-Scarred
+2023-07-29,P90 | Astral Jörmungandr,Minimal Wear
+2023-07-30,SSG 08 | Sea Calico,Factory New
+2023-07-31,M249 | Shipping Forecast,Factory New
+2023-08-01,USP-S | Serum,Minimal Wear
+2023-08-02,AK-47 | Case Hardened,Battle-Scarred
+2023-08-03,AWP | Fade,Minimal Wear
+2023-08-04,Negev | Anodized Navy,Factory New
+2023-08-05,USP-S | Overgrowth,Well-Worn
+2023-08-06,Nova | Blaze Orange,Minimal Wear
+2023-08-07,P2000 | Pathfinder,Minimal Wear
+2023-08-08,XM1014 | Red Leather,Well-Worn
+2023-08-09,MP9 | Green Plaid,Battle-Scarred
+2023-08-10,AWP | Graphite,Minimal Wear
+2023-08-11,USP-S | Orange Anolis,Minimal Wear
+2023-08-12,M4A1-S | Guardian,Well-Worn
+2023-08-13,UMP-45 | Caramel,Factory New
+2023-08-14,G3SG1 | Violet Murano,Minimal Wear
+2023-08-15,USP-S | Pathfinder,Factory New
+2023-08-16,Glock-18 | Synth Leaf,Factory New
+2023-08-17,Desert Eagle | Golden Koi,Minimal Wear
+2023-08-18,Glock-18 | Neo-Noir,Minimal Wear
+2023-08-19,USP-S | Whiteout,Minimal Wear
+2023-08-20,Galil AR | Shattered,Factory New
+2023-08-21,AK-47 | Orbit Mk01,Factory New
+2023-08-22,M4A1-S | Icarus Fell,Factory New
+2023-08-23,Galil AR | Eco,Minimal Wear
+2023-08-24,P90 | Run and Hide,Factory New
+2023-08-25,M4A4 | Cyber Security,Minimal Wear
+2023-08-26,MP7 | Asterion,Battle-Scarred
+2023-08-27,G3SG1 | Flux,Minimal Wear
+2023-08-28,AWP | Containment Breach,Minimal Wear
+2023-08-29,SG 553 | Bulldozer,Field-Tested
+2023-08-30,SG 553 | Wave Spray,Factory New
+2023-08-31,MP9 | Bulldozer,Battle-Scarred
+2023-09-01,MP9 | Wild Lily,Well-Worn
+2023-09-02,AK-47 | Red Laminate,Field-Tested
+2023-09-03,SSG 08 | Sand Dune,Factory New
+2023-09-04,Desert Eagle | Urban DDPAT,Factory New
+2023-09-05,Galil AR | Chatterbox,Field-Tested
+2023-09-06,M4A4 | In Living Color,Factory New
+2023-09-07,MP9 | Stained Glass,Minimal Wear
+2023-09-08,AUG | Sand Storm,Field-Tested
+2023-09-09,PP-Bizon | Rust Coat,Battle-Scarred
+2023-09-10,Five-SeveN | Jungle,Factory New
+2023-09-11,MAC-10 | Hot Snakes,Minimal Wear
+2023-09-12,AWP | Lightning Strike,Factory New
+2023-09-13,SSG 08 | Detour,Well-Worn
+2023-09-14,P250 | Digital Architect,Field-Tested
+2023-09-15,M4A1-S | Atomic Alloy,Factory New
+2023-09-16,AWP | Medusa,Field-Tested
+2023-09-17,MAG-7 | Silver,Minimal Wear
+2023-09-18,AK-47 | Ice Coaled,Well-Worn
+2023-09-19,MAC-10 | Stalker,Minimal Wear
+2023-09-20,M4A4 | The Coalition,Minimal Wear
+2023-09-21,P250 | Whiteout,Factory New
+2023-09-22,Galil AR | Cerberus,Minimal Wear
+2023-09-23,USP-S | Printstream,Minimal Wear
+2023-09-24,MAG-7 | Prism Terrace,Minimal Wear
