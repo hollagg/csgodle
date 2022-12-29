@@ -62,3 +62,8 @@ def daily():
 def dev():
     # Redirect to a writeup I did on the project
     return redirect("https://painted-coach-e77.notion.site/Creating-CS-GOrdle-9f397ab9e6bd4df69793811e55cc9b83", code=302)
+
+@app.route('/final_update')
+def final_update():
+    # Redirect to maybe final update
+    return redirect("https://painted-coach-e77.notion.site/CS-Gordle-s-Probably-Final-Update-9b6316c998db4b4f9c25da2bef91a65c", code=302)
