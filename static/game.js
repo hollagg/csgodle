@@ -267,13 +267,24 @@ function show_state(daily) {
     document.getElementById("attempts").innerHTML = attempts-guesses.length;
 }
 
+// for things like dragon king
+function decodeEscapedUtf8String(escapedStr) {
+    const byteArray = escapedStr.split('\\')
+        .filter(Boolean)
+        .map(oct => parseInt(oct, 8)); // Convert octal to integer
+    const uint8Array = new Uint8Array(byteArray);
+    return new TextDecoder('utf-8').decode(uint8Array);
+}
+
 function handle_guess(daily, im1, im2, im3, im4) {
     // 1 = correct, 2 = up, 3 = down, 4 = wrong
     const imgs = {'1': im1, "2": im2, "3": im3, "4": im4};
     let guess_name = document.getElementById("guess_weapon").value;
     let guess_exterior = document.getElementById("guess_exterior").value;
     // Format is skin///ext
-    let secret_split = get_cookie("secret_item", daily).replace(/"/g, '').split("///");
+    const escapedRegex = /(?:\\[0-3][0-7]{2})+/g;
+    let secret_str = get_cookie("secret_item", daily).replace(escapedRegex, match => decodeEscapedUtf8String(match));
+    let secret_split = secret_str.replace(/"/g, '').split("///");
     let guess = items[guess_name];
     if (guess == null) {
         document.getElementById("error_name").style.display = "block";
@@ -287,7 +298,6 @@ function handle_guess(daily, im1, im2, im3, im4) {
     document.getElementById("error_name").style.display = "none";
     document.getElementById("error_exterior").style.display = "none";
     document.getElementById("guess_weapon").value = "";
-
     let secret = items[secret_split[0]];
     // Object used to compare condition
     let exteriors = {
