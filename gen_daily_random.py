@@ -44,4 +44,3 @@ with open('random_daily.csv', 'w', encoding='UTF8', newline='') as f:
         start_date = start_date + datetime.timedelta(days=1)
 
 print('finished randomizing, last day: ', start_date)
-

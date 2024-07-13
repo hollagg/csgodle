@@ -167,7 +167,7 @@ function format_price(price) {
 }
 
 function set_cookie(cookie_name, cookie_value, ex, daily) {
-    cookie_name = (daily?"d_":"") + cookie_name;
+    cookie_name = (daily ? "d_" : "") + cookie_name;
     const d = new Date();
     if (daily) {
         d.setTime(d.getTime() + (24*60*60*1000));
@@ -183,7 +183,7 @@ function set_cookie(cookie_name, cookie_value, ex, daily) {
 }
 
 function get_cookie(cookie_name, daily) {
-    cookie_name = (daily?"d_":"") + cookie_name;
+    cookie_name = (daily ? "d_" : "") + cookie_name;
     var cookies = `${document.cookie}`.split(";");
     for(var i = 0; i < cookies.length; i++) {
         var cookie = cookies[i].split("=");
@@ -209,8 +209,8 @@ let createElement = (initObj) => {
 }
 
 function show_state(daily) {
-    let enabled = get_cookie("hintsenabled", false);
-    document.getElementById("toggleinfo").innerHTML = "📋 Skin Info " + (enabled=="0"?"OFF":"ON");
+    // let enabled = get_cookie("hintsenabled", false);
+    // document.getElementById("toggleinfo").innerHTML = "📋 Skin Info " + (enabled=="0"?"OFF":"ON");
     let guesses = get_cookie("guesses_2", daily);
     let attempts = get_cookie("t_attempts", daily);
     guesses = guesses == ""? []:JSON.parse(guesses);
@@ -362,31 +362,23 @@ function copy_current_day(day, names) {
     text = text.replace(/2/g, '🔼');
     text = text.replace(/3/g, '🔽');
     text = text.replace(/4/g, '🟥');
-    let mosaic_daily = "";
-    if (day > -1) {mosaic_daily = "/daily"}
+    // let mosaic_daily = "";
+    // if (day > -1) {mosaic_daily = "/daily"}
+    // text = "#CSGOrdle " + daily_info + g_len + "/" + attempts + text + "\n\ncsgordle.holla.one" + mosaic_daily;
+    text = "#CSGOrdle " + daily_info + g_len + "/" + attempts + text + "\n\nhttps://csgordle.holla.one";
+    // var success = "Copied results to clipboard!"
+    navigator.clipboard.writeText(text);
 
-    text = "#CSGOrdle " + daily_info + g_len + "/" + attempts + text + "\n\ncsgordle.holla.one" + mosaic_daily;
-    var success = "Copied results to clipboard!"
-    if (window.clipboardData && window.clipBoardData.setData) {
-        alert(success);
-        return clipBoardData.setData("Text", text);
-    }
-    else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
-        var textarea = document.createElement("textarea");
-        textarea.textContent = text;
-        textarea.style.position = "fixed";
-        document.body.appendChild(textarea);
-        textarea.select();
-        try {
-            return document.execCommand("copy");
-        } catch (ex) {
-            console.warn("Copy to clipboard failed. Let holla know!", ex);
-            return false;
-        } finally {
-            document.body.removeChild(textarea);
-            alert(success);
-        }
-    }
+    const notification = document.getElementById('notification');
+    notification.classList.remove('hidden');
+    notification.classList.add('show');
+
+    // Hide the notification after 2 seconds
+    setTimeout(function() {
+        notification.classList.remove('show');
+        notification.classList.add('hidden');
+    }, 2000);
+    return false
 }
 
 function toggle_hints(daily) {
@@ -458,4 +450,20 @@ function show_hint(daily) {
     let hint_element = document.getElementById('skinhint_text');
     hint_element.style.display = "block";
     hint_element.innerHTML = hint;
+}
+
+// Open popup for how to play
+function showHowToPlay() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'block';
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+}
+
+function closeHowToPlay() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'none';
 }

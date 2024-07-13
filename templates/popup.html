@@ -1,0 +1,23 @@
+{% macro popup() -%}
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h2>How to Play</h2>
+        <p>I <strong style="color: #e38616">HIGHLY</strong> recommend using the 👀 hint button at the start.</p>
+        <p>It will provide the weapon category (Rifle, SMG, Pistol etc.) and the side (T, CT, both)</p>
+        <p>CS:GOrdle is all about guessing a CS2 weapon skin. Start by typing in a skin you are thinking of in the text box.</p>
+        <img id="popup_img" src="{{ url_for('static', filename='search_example.png') }}">
+        <p>A list of skins that match your search will show up. Select one and hit submit to see how your guess did!</p>
+        <img id="popup_img" src="{{ url_for('static', filename='guess_info.png') }}">
+        <p>You will then see how your guess compares to the secret skin. (Hover the skin image for more info)</p>
+        <p>You can set the condition of the skin before searching to have prices show up for that specific condition.</p>
+        <p>Category: Weapon category (Rifle, SMG, Pistol)</p>
+        <p>Weapon: Weapon (AK-47, USP-S, P250)</p>
+        <p>Pattern: The skin name (Whiteout, Asiimov, Boreal Forest)</p>
+        <p>Price: Price (USD)</p>
+        <p>Rarity: Skin rarity (<span style="color: #e4ae39">Contraband</span> all the way down to <span style="color: #b0c3d9">Consumer Grade</span>)</p>
+        <p>Condition: Skin condition (Factory New, Field-Tested, Well-Worn)</p>
+        <p>Crate icons: ✅: Spot on, 🟥: Incorrect, 🔽: Secret is lower (costs less than your guess etc.), 🔼: Secret is higher (better condition, higher rarity)</p>
+        <a class="type-block hintbtn" id="skinhint" href="#" onclick="return closeHowToPlay(true), false" title="Displays a hint for the secret skin">😎 Let's Roll!</a>
+    </div>
+</div>
+{%- endmacro %}

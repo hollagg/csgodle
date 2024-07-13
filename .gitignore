@@ -7,7 +7,9 @@ csgobp_prices.json
 results.json
 results_old.json
 csgobp_prices_old.json
+webapi.json
 node_modules
+tst.py
 
 # C extensions
 *.so

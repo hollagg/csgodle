@@ -22,16 +22,13 @@
 </script>
 
 <body>
+    {% from 'popup.html' import popup %}
+    {{ popup() }}
     <h1>CS:GOrdle</h1>
-    <h2>A CS:GO Wordle Game by <a href="https://twitter.com/hollabutt" target="_blank" rel="noopener noreferrer">holla</a></h2>
-    <p class="blurb highlight">
-        <a href="https://csgordle.holla.one/final_update" target="_blank" rel="noopener noreferrer">
-            NEWS: FINAL UPDATE!
-        </a>
-    </p>
+    <h2>A CS2 Wordle Game by <a href="https://holla.one" target="_blank" rel="noopener noreferrer">holla</a></h2>
     <p class="blurb">Guess that CS:GO gun skin! You have <span id="attempts"></span> guesses left.</p>
-    <p class="blurb">Skins are NOT StatTrak/Souvenir and are priced using <a href=https://csgoskins.gg/ target="_blank" rel="noopener noreferrer">CSGOSkins.gg</a>.</p>
-    <p class="blurb">You can use <a href="https://csgostash.com/" target="_blank" rel="noopener noreferrer">CS:GO Stash</a> to easily browse skins by category.</p>
+    <p class="blurb">Skins are NOT StatTrak/Souvenir.</p>
+    <p class="blurb">You can use <a href="https://csgostash.com/" target="_blank" rel="noopener noreferrer">CS2 Stash</a> to easily browse skins by category.</p>
     <div id="guesses" class="guesses" style="display: none;">
         <div class="row" id="hinttitles">
             <div class="column">
@@ -72,9 +69,9 @@
         </select>
         <input class="guess_input" value="Submit" type="submit" onclick="handle_guess(false, '{{im[0]}}', '{{im[1]}}', '{{im[2]}}', '{{im[3]}}')">
         <br>
-        <a class="type-block hintbtn" id="toggleinfo" href="#" onclick="toggle_hints(false)" title="Show skin info in autocomplete entries">📋 Skin Info ON</a>
+        <a class="type-block hintbtn" id="toggleinfo" href="#" onclick="return showHowToPlay(true), false" title="Open a popup with instructions and tips">❓ How To Play</a>
         <br>
-        <a class="type-block hintbtn" id="skinhint" href="#" onclick="show_hint(false)" title="Displays a hint for the secret skin">👀 Show Hint</a>
+        <a class="type-block hintbtn" id="skinhint" href="#" onclick="return show_hint(false), false" title="Displays a hint for the secret skin">👀 Show Hint</a>
         <p id="skinhint_text" style="display: none;"></p>
     </form>
     <div id="results" style="display: none;">
@@ -85,12 +82,16 @@
             <img id="secret_thumb" src={{secret_thumb}} style="display: none;">
         </span>
         <br>
-        <a class="togglec" onclick="copy_current_day(-1, false)" href="#">📄 Share</a>
+        <div id="notification" class="hidden">Copied!</div>
+        <a class="togglec" id="copy_button" onclick="return copy_current_day(-1, false), false" href="#">📄 Share Results</a>
     </div>
     <a class="togglec" onclick="new_game()" href="#">New Game</a>
     <br>
     <a href="{{ url_for('daily') }}">Daily Version</a>
-    <br><br>
+    <br>
+    <br>
+    <a href="https://buymeacoffee.com/hlla" target="_blank" rel="noopener noreferrer">Buy Me 🍕</a>
+    <br>
     <span class="credit">This game is based on <a target="_blank" rel="noopener noreferrer" href="https://squirdle.fireblend.com">Squirdle</a> by Fireblend.</span>
 
     <script>
